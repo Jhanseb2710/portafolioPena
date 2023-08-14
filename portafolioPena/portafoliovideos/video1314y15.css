@@ -1,0 +1,45 @@
+.colores{
+    color:rgb(47, 128, 175)
+}
+
+.color-hexadecimal {
+    color: #212392;
+}
+
+.color-rgb {
+    color: rgb(100, 200, 50)
+}
+
+.color-rgba {
+    color: rgba(20, 40, 80, 100)
+}
+
+.fondo {
+    /*background-color: aqua;*/
+    background-image: url("https://www.cinemascomics.com/wp-content/uploads/2016/11/King-Kong-Skull-Island-trailer-teaser-e1487321102425.jpg");
+    background-position: left bottom;
+}
+
+.fondo-interno {
+    background-image: url("C:\Users\Familia Fonseca\Downloads\images.jpg");
+    background-position: left bottom;
+}
+
+.ancho {
+    background-color:chocolate;
+    width: 260px;
+}
+
+.alto {
+    background-color: coral;
+    height: 170px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-top: none;
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
