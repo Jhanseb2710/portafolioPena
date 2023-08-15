@@ -1,0 +1,57 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');*/
+html {
+    font-family:'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.div-1 {
+    background-color: green;
+}
+
+.div-2 {
+    background-color: limegreen;
+}
+
+.span{
+    background-color: chartreuse;
+}
+.img {
+    width: 80px;
+    height: 60px;
+}
+
+.span2{
+    background-color: yellowgreen;
+    float:inherit
+}
+
+div {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.relative {
+    position: relative;
+    /*left: 80px;
+    margin-left: 10px;*/
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: aqua;
+}
+
+.absolute {
+    position: absolute;
+    top:0px
+}
+
+.sticky {
+    background-color: olivedrab;
+}
