@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>Pseudo-clases</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: forestgreen;
+        }
+
+        .hover:hover {
+            background-color: white;
+        }
+
+        .Listado {
+            padding: 15px;
+            background-color: red;
+        }
+
+        .Listado p:first-child {
+            color: blue;
+        }
+
+        a:link {
+            color:green
+        }
+
+        a:visited {
+            color: dodgerblue;
+        }
+
+        a:hover {
+            color:turquoise
+        }
+
+        a:active {
+            color:yellow
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Yo sono il capone della mafia</p>
+    </div>
+    <div class="Listado">
+        <p>Yo sono il figlyo della mia mama</p>
+        <p>Tu sei uno stronzo di merda</p>
+        <p>E un figlyio di troia in Venezia</p>
+    </div>
+    <div class="enlaces">
+        <a href="https://www.youtube.com/watch?v=i7cEs-1qK5k" target="_blank">Hombres G</a>
+        <a href="https://www.youtube.com/watch?v=WRcCBI5rFfM" target="_blank">Los Prisioneros</a>
+        <a href="https://www.youtube.com/watch?v=i7cEs-1qK5k" target="_blank">Soda Stereo</a>
+    </div>
+</body>
+</html>

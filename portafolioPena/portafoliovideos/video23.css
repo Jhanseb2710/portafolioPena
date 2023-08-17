@@ -1,0 +1,11 @@
+.p-contenedor {
+    color: brown;
+}
+
+body section.main .contenedor p{
+    color: springgreen;
+}
+
+.contenedor #boton-contenedor {
+    background-color: yellow;
+}
