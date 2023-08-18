@@ -1,0 +1,61 @@
+.input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input[type="password"] {
+    color: skyblue;
+}
+
+.input-moderno {
+    border: none;
+    border-bottom: 1px solid #999999;
+    outline: none;
+    padding: 5px;
+    color: #5f5f5f;
+}
+
+.input-moderno::placeholder {
+    color: #c2c2cc;
+}
+
+.input-moderno:focus {
+    border-bottom: 1px solid #5f5f5f;
+}
+
+.input-background {
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    color:white
+    box-shadow 0 0 10px #ccc;
+}
+
+.input-background::placeholder {
+    color: #ccc;
+}
+
+.input-search {
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/694/694985.png');
+    background-position: 15px ;
+}
+
+textarea {
+    resize: none;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    background-color: #ccc;
+}
