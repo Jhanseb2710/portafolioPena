@@ -1,0 +1,22 @@
+.row div {
+    margin: 0.25rem;
+}
+
+.col {
+    background-color: chartreuse;
+}
+.col-sm {
+    background-color: blue;
+}
+.col-md {
+    background-color: red;
+}
+.col-lg {
+    background-color:brown;
+}
+.col-xl {
+    background-color:green;
+}
+.col-xxl {
+    background-color: crimson;
+}
