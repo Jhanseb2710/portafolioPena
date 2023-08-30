@@ -1,0 +1,89 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    font-style: normal;
+}
+.sticky {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+.header {
+    height: 7vh;
+    position: initial;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: initial;
+    align-items: center;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    background-color: rgb(32, 197, 17);
+    height: 646px;
+    justify-content: center;
+}
+.form {
+    background-color: #fff;
+    margin: auto;
+    width: 90%;
+    max-width: 300px;
+    padding: 5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+}
+.form-title {
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+.form-paragraph {
+    font-weight: 300;
+}
+.form-link {
+    font-weight: 400;
+    color: #000;
+}
+.form-container {
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+.form-group {
+    position: relative;
+    --color: #5757577e;
+}
+.form-input {
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font-family: 'Open Sans', sans-serif;
+}
+.form-input:focus,
+.form-input:not(:placeholder-shown){
+    color: #4d4646;
+}
+.form-label {
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+.form-submit {
+    background: #3866f2;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em;
+}

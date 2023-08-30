@@ -1,0 +1,52 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    font-style: normal;
+}
+.sticky {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+.header {
+    height: 7vh;
+    position: initial;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: initial;
+    align-items: center;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    background-color: rgb(32, 197, 17);
+    height: 606px;
+    justify-content: center;
+}
+.image-container {
+    border-radius: 25px;
+    text-align: end;
+    left: 50%;
+    margin-top: 0px;
+    padding: 100px;
+    display: flex;
+    gap: 15%;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image-container img {
+    max-width: 150%;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: auto;
+    padding: irem;
+    width: 850px;
+    height: 120px;
+}
