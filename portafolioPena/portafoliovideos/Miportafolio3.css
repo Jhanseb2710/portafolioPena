@@ -35,6 +35,10 @@ html {
     padding: irem;
     justify-content: flex-start;
 }
+.img-container {
+    max-width: 100%;
+    height: 55vh;
+}
 .proyecto-2 {
     background-color: white;
     height: 200px;
